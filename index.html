@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL-TECH POS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GLOBAL-TECH POS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sales">Sales</a></li>
+            <li><a href="#inventory">Inventory</a></li>
+            <li><a href="#customers">Customers</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="sales">
+            <h2>Sales Module</h2>
+            <form>
+                <label for="product">Product:</label>
+                <input type="text" id="product" name="product" required>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                <button type="submit">Add to Sales</button>
+            </form>
+        </section>
+        <section id="inventory">
+            <h2>Inventory Module</h2>
+            <form>
+                <label for="item">Item Name:</label>
+                <input type="text" id="item" name="item" required>
+                <label for="stock">Stock Level:</label>
+                <input type="number" id="stock" name="stock" required>
+                <button type="submit">Update Inventory</button>
+            </form>
+        </section>
+        <section id="customers">
+            <h2>Customer Management</h2>
+            <form>
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+                <label for="customerEmail">Customer Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required>
+                <button type="submit">Add Customer</button>
+            </form>
+        </section>
+        <section id="reports">
+            <h2>Reports and Analytics</h2>
+            <p>Placeholder for reports summary...</p>
+        </section>
+        <section id="settings">
+            <h2>Settings</h2>
+            <p>Placeholder for settings configuration...</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 GLOBAL-TECH POS. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
